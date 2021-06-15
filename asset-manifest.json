@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/vocabulary-app-fe/static/css/main.ac246db7.chunk.css",
-    "main.js": "/vocabulary-app-fe/static/js/main.053ef488.chunk.js",
-    "main.js.map": "/vocabulary-app-fe/static/js/main.053ef488.chunk.js.map",
-    "runtime-main.js": "/vocabulary-app-fe/static/js/runtime-main.e8575088.js",
-    "runtime-main.js.map": "/vocabulary-app-fe/static/js/runtime-main.e8575088.js.map",
-    "static/css/2.61b4cb56.chunk.css": "/vocabulary-app-fe/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.c1450c25.chunk.js": "/vocabulary-app-fe/static/js/2.c1450c25.chunk.js",
-    "static/js/2.c1450c25.chunk.js.map": "/vocabulary-app-fe/static/js/2.c1450c25.chunk.js.map",
-    "index.html": "/vocabulary-app-fe/index.html",
-    "static/css/2.61b4cb56.chunk.css.map": "/vocabulary-app-fe/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.ac246db7.chunk.css.map": "/vocabulary-app-fe/static/css/main.ac246db7.chunk.css.map",
-    "static/js/2.c1450c25.chunk.js.LICENSE.txt": "/vocabulary-app-fe/static/js/2.c1450c25.chunk.js.LICENSE.txt"
+    "main.css": "/vocabulary-app-fe-updated/static/css/main.ac246db7.chunk.css",
+    "main.js": "/vocabulary-app-fe-updated/static/js/main.053ef488.chunk.js",
+    "main.js.map": "/vocabulary-app-fe-updated/static/js/main.053ef488.chunk.js.map",
+    "runtime-main.js": "/vocabulary-app-fe-updated/static/js/runtime-main.bec38c06.js",
+    "runtime-main.js.map": "/vocabulary-app-fe-updated/static/js/runtime-main.bec38c06.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/vocabulary-app-fe-updated/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.c1450c25.chunk.js": "/vocabulary-app-fe-updated/static/js/2.c1450c25.chunk.js",
+    "static/js/2.c1450c25.chunk.js.map": "/vocabulary-app-fe-updated/static/js/2.c1450c25.chunk.js.map",
+    "index.html": "/vocabulary-app-fe-updated/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/vocabulary-app-fe-updated/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.ac246db7.chunk.css.map": "/vocabulary-app-fe-updated/static/css/main.ac246db7.chunk.css.map",
+    "static/js/2.c1450c25.chunk.js.LICENSE.txt": "/vocabulary-app-fe-updated/static/js/2.c1450c25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8575088.js",
+    "static/js/runtime-main.bec38c06.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.c1450c25.chunk.js",
     "static/css/main.ac246db7.chunk.css",
