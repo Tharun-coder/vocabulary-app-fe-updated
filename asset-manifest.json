@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vocabulary-app-fe-updated/static/css/main.ac246db7.chunk.css",
+    "main.css": "/vocabulary-app-fe-updated/static/css/main.d2bf5f86.chunk.css",
     "main.js": "/vocabulary-app-fe-updated/static/js/main.053ef488.chunk.js",
     "main.js.map": "/vocabulary-app-fe-updated/static/js/main.053ef488.chunk.js.map",
     "runtime-main.js": "/vocabulary-app-fe-updated/static/js/runtime-main.bec38c06.js",
@@ -10,14 +10,14 @@
     "static/js/2.c1450c25.chunk.js.map": "/vocabulary-app-fe-updated/static/js/2.c1450c25.chunk.js.map",
     "index.html": "/vocabulary-app-fe-updated/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/vocabulary-app-fe-updated/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.ac246db7.chunk.css.map": "/vocabulary-app-fe-updated/static/css/main.ac246db7.chunk.css.map",
+    "static/css/main.d2bf5f86.chunk.css.map": "/vocabulary-app-fe-updated/static/css/main.d2bf5f86.chunk.css.map",
     "static/js/2.c1450c25.chunk.js.LICENSE.txt": "/vocabulary-app-fe-updated/static/js/2.c1450c25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bec38c06.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.c1450c25.chunk.js",
-    "static/css/main.ac246db7.chunk.css",
+    "static/css/main.d2bf5f86.chunk.css",
     "static/js/main.053ef488.chunk.js"
   ]
 }
