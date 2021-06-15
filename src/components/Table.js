@@ -34,7 +34,6 @@ function Table({ searchWord }) {
             .map((item) => (
               <TableItem item={item} key={item.id} searchWord={searchWord} />
             ))}
-        {/* <TableItem searchWord={searchWord} /> */}
       </tbody>
     </table>
   );

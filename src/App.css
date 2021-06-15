@@ -8,15 +8,108 @@ body {
 }
 
 .App > .app-header {
-  color: #fff;
+  position: fixed;
+  background-color: #bf1363;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.App > .app-header > .header-content {
+  color: #fff !important  ;
   letter-spacing: 0.1rem !important;
   margin: 5px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.App > .app-header > .search {
+  margin-right: 250px !important;
+}
+
+.App > .app-header > .search > button {
+  /* margin-right: 250px !important; */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .App > .app-header > .search {
+    margin-right: 20px !important;
+  }
+}
+
+.App > .app-header .search > button > i {
+  color: white;
+}
+
+.add-word-btn {
+  position: fixed;
+  bottom: 15px;
+  right: 150px;
+  border: none;
+  cursor: pointer;
+  background-color: #bf1363;
+  padding: 30px 30px;
+  border-radius: 50%;
+}
+
+.search {
+  display: flex;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .add-word-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: #bf1363;
+    padding: 30px 30px;
+    border-radius: 50%;
+  }
+
+  .add-word-modal-content {
+    margin-left: 20px;
+  }
+
+  .add-word-modal-content > input {
+    width: 100%;
+  }
+
+  .add-word-modal-content > button {
+    width: 100%;
+  }
+
+  #search-word {
+    width: 150px;
+    margin-top: 10px;
+    border: none;
+  }
+}
+
+.add-word-btn > i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*------ Content -------- */
 
 .content-wrapper {
+  position: relative;
+  top: 100px;
   background-color: white;
   border-radius: 10px;
   padding: 20px 10px;
@@ -27,7 +120,8 @@ body {
   outline: none;
   margin-right: 10px;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-bottom: 1px solid gray;
+  border: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -71,5 +165,44 @@ button:focus {
 }
 
 .modal-content {
+  padding-left: 10px !important;
   margin: 10px 5px !important;
+}
+
+.modal-content > p {
+  padding: 10px 0px !important;
+  font-size: 13px;
+  color: black;
+}
+
+.close-btn {
+  border-radius: 50% !important;
+}
+
+.add-word-modal-content {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .modal-content > p > ul > li {
+    text-align: justify;
+    padding-right: 20px;
+  }
+}
+
+/*------ List -------- */
+
+.list-container {
+  text-align: left !important;
+  overflow-x: scroll;
+}
+
+.item-content {
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.item-content p {
+  text-align: justify;
+  font-size: 13.5px;
 }
